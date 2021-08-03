@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>calculadora</title>
+</head>
+<body>
+    <div class="container">
+        <div class="calculadora">
+            <div class="resultado">
+                <div id="resultado-display"></div>
+                <div id="resultado-total"></div>
+            </div>
+            <div class="numeros">
+                <button class="botao operador" onclick="apagar()">C</button>
+                <button class="botao operador" onclick="apagarum()">CE</button>
+                <button class="botao operador" onclick="insert('%')">%</button>
+                <button class="botao operador" onclick="insert('/')">/</button>
+                <button class="botao" onclick="insert('7')">7</button>
+                <button class="botao" onclick="insert('8')">8</button>
+                <button class="botao" onclick="insert('9')">9</button>
+                <button class="botao operador" onclick="insert('*')">x</button>
+                <button class="botao" onclick="insert('4')">4</button>
+                <button class="botao" onclick="insert('5')">5</button>
+                <button class="botao" onclick="insert('6')">6</button>
+                <button class="botao operador" onclick="insert('-')">-</button>
+                <button class="botao" onclick="insert('1')">1</button>
+                <button class="botao" onclick="insert('2')">2</button>
+                <button class="botao" onclick="insert('3')">3</button>
+                <button class="botao operador" onclick="insert('+')">+</button>
+                <button class="botao"></button>
+                <button class="botao" onclick="insert('0')">0</button>
+                <button class="botao" onclick="insert('.')">.</button>
+                <button class="botao operador" onclick="resp()">=</button>
+            </div>
+        </div>
+        <div class="images">
+            <div class="img-botom">
+                <img src="img/bg-pattern-bottom.svg" alt="">
+            </div>
+            <div class="img-top">
+                <img src="img/bg-pattern-top.svg" alt="">
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
